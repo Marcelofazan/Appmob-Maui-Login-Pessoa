@@ -9,7 +9,7 @@ Exemplo de criação de Login de App Mobile MAUI Xamarin Forms consumindo WebAPI
 
 ### Execução da aplicação
 
-Executa a aplicação Backend **https://github.com/Marcelofazan/apinet8-mobile-mysql** que se encontra no Github.
+Executa a aplicação Backend **WebAPI-Mobile-MySQL** que se encontra no Github.
 
   - [WebAPI-Mobile-MySQL](https://github.com/Marcelofazan/apinet8-mobile-mysql)
   
