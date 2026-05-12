@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobile.Cadastrar"
+             Title="Cadastrar">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <StackLayout Padding="30,20,0,0">
+                <Label Text="Registrar Usuário" TextColor="Green" />
+            </StackLayout>
+            <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto" 
+                      ColumnDefinitions="Auto, *"
+                      RowSpacing="10" 
+                      ColumnSpacing="10"
+                      Padding="15">
+                <Label Text="Nome:"
+                       Grid.Row="0" Grid.Column="0" 
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0" />
+                <Entry x:Name="txtRazaoSocial" Grid.Row="0" Grid.Column="1" Placeholder="Informe seu nome" HorizontalOptions="Start" VerticalOptions="StartAndExpand" HeightRequest="50" WidthRequest="300" FontSize="Small"/>
+                <Label Text="Cpf:" 
+                       Grid.Row="1" Grid.Column="0" 
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0" />
+                <Entry x:Name="txtCnpjCpf" Grid.Row="1" Grid.Column="1" Placeholder="Informe seu Cpf" HorizontalOptions="Start" VerticalOptions="StartAndExpand" HeightRequest="50" WidthRequest="300" FontSize="Small"/>
+
+                <Label Text="Email:" 
+                       Grid.Row="2" Grid.Column="0"
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0"/>
+                <Entry x:Name="txtEmail" Grid.Row="2" Grid.Column="1" Placeholder="Informe seu email" HorizontalOptions="Start" VerticalOptions="StartAndExpand" HeightRequest="50" WidthRequest="300" FontSize="Small"/>
+
+                <Label Text="Telefone:"
+                       Grid.Row="3" Grid.Column="0"
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0" />
+                <Entry x:Name="txtTelefone" Grid.Row="3" Grid.Column="1" Placeholder="Informe seu telefone" HorizontalOptions="Start" VerticalOptions="StartAndExpand" HeightRequest="50" WidthRequest="300" FontSize="Small" />
+
+                <Label Text="Usuário:"
+                       Grid.Row="4" Grid.Column="0" 
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0" />
+                <Entry x:Name="txtUsuario" Grid.Row="4" Grid.Column="1" Placeholder="Informe seu usuário" HorizontalOptions="Start" VerticalOptions="StartAndExpand" HeightRequest="50" WidthRequest="300" FontSize="Small"/>
+
+                <Label Text="Senha:" 
+                       Grid.Row="5" Grid.Column="0" 
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0" />
+                <Entry x:Name="txtSenha" Grid.Row="5" Grid.Column="1" Placeholder="Informe sua senha" HorizontalOptions="Start" VerticalOptions="StartAndExpand" HeightRequest="50" WidthRequest="300" FontSize="Small" IsPassword="True"/>
+            </Grid>
+            <StackLayout Padding="10,50,10,0">
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="Registrar" Clicked="btnAdicionar_Clicked" FontSize="Small"/>
+            </StackLayout>
+            <StackLayout Padding="10,50,10,0">
+                <Button HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="40" Text="Voltar" Clicked="btnVoltar_Clicked" FontSize="Small"/>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
