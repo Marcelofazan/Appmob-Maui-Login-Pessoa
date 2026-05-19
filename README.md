@@ -15,10 +15,10 @@ Executa a aplicação Backend **WebAPI-Mobile-MySQL** que se encontra no Github.
   
 O banco de dados é MySQL e deve estar hospedado Online , onde será maninupado por essa aplicação através de emulador Android .NET MAUI.
 
-#### 🧪 Execução Inicial de Endpoints (Postman)
+#### 🧪 Execução de Endpoints
 
 **(PessoaService.cs)**
-- Necessário alterar link da API hospedada. 
+- Necessário alterar link da API hospedada para: 
 
 ```json
 https://[LINKWEB].tryasp.net/api/pessoa
