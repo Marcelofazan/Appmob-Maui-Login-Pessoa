@@ -24,7 +24,7 @@ https://[LINKWEB].tryasp.net/api/pessoa
 ```
 
 ### 🛠️ Execução da aplicação
-- Necessário banco de dados é MySQL deve estar hospedado Online , necessário para emulador Android .NET MAUI.
+- Necessário banco de dados MySQL que deve estar hospedado Online , necessário para emulador Android .NET MAUI funcionar.
 
 Execute a aplicação Backend **WebAPI-Mobile-MySQL** que se encontra no Github:
 
