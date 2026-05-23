@@ -1,14 +1,14 @@
-## 📱 AppMobile-MAUI-Login-Pessoa
+## 📱💻 AppMobile-MAUI-Login-Pessoa
 
 Exemplo de criação de Login de App Mobile MAUI Xamarin Forms consumindo WebAPI.
 
-### O que você vai encontrar neste projeto
+#### O que você vai encontrar neste projeto
 | Tecnologia | Descrição |
 |-----------|-----------|
 | **HTTPClient**  | Classe primária utilizada para enviar solicitações HTTP e receber respostas de recursos identificados por um URI. |
 | **XAML**  | Linguagem baseada em XML, para definir interfaces de usuário de forma declarativa para Android, iOS, macOS e Windows. |
 
-#### 🧪 Execução de Endpoints
+#### 🧪 Executar Endpoints
 
 O Arquivo **(PessoaService.cs)** executa :
 
@@ -23,11 +23,11 @@ O Arquivo **(PessoaService.cs)** executa :
 https://[LINKWEB].tryasp.net/api/pessoa
 ```
 
-### 🛠️ Execução da aplicação
+### 🛠️ Executar a aplicação
 - Necessário banco de dados MySQL que deve estar hospedado Online , necessário para emulador Android .NET MAUI funcionar.
 
+### 🚀 Backend 
 Execute a aplicação Backend **WebAPI-Mobile-MySQL** que se encontra no Github:
-
   - [WebAPI-Mobile-MySQL](https://github.com/Marcelofazan/apinet8-mobile-mysql)
   
 
