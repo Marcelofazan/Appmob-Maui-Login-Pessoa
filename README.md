@@ -22,7 +22,7 @@ O Arquivo **(PessoaService.cs)** executa :
 https://[LINKWEB].tryasp.net/api/pessoa
 ```
 
-### 🛠️ Executar a aplicação
+### Executar a aplicação
 - Necessário banco de dados MySQL que deve estar hospedado Online , necessário para emulador Android .NET MAUI funcionar.
 
 ### 🚀 Backend 
